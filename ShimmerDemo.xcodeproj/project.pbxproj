@@ -13,6 +13,8 @@
 		1E2B10F129815AD7000DDA98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2B10EF29815AD7000DDA98 /* Main.storyboard */; };
 		1E2B10F329815AD9000DDA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2B10F229815AD9000DDA98 /* Assets.xcassets */; };
 		1E2B10F629815ADA000DDA98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2B10F429815ADA000DDA98 /* LaunchScreen.storyboard */; };
+		1E2B110029815E8A000DDA98 /* ShimmerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B10FF29815E8A000DDA98 /* ShimmerCollectionViewCell.swift */; };
+		1E2B110229816522000DDA98 /* ShimmerCollectionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B110129816522000DDA98 /* ShimmerCollectionViewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1E2B10F229815AD9000DDA98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E2B10F529815ADA000DDA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E2B10F729815ADA000DDA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2B10FF29815E8A000DDA98 /* ShimmerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E2B110129816522000DDA98 /* ShimmerCollectionViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerCollectionViewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1E2B10E929815AD7000DDA98 /* AppDelegate.swift */,
 				1E2B10EB29815AD7000DDA98 /* SceneDelegate.swift */,
 				1E2B10ED29815AD7000DDA98 /* ViewController.swift */,
+				1E2B10FF29815E8A000DDA98 /* ShimmerCollectionViewCell.swift */,
+				1E2B110129816522000DDA98 /* ShimmerCollectionViewData.swift */,
 				1E2B10EF29815AD7000DDA98 /* Main.storyboard */,
 				1E2B10F229815AD9000DDA98 /* Assets.xcassets */,
 				1E2B10F429815ADA000DDA98 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2B110229816522000DDA98 /* ShimmerCollectionViewData.swift in Sources */,
 				1E2B10EE29815AD7000DDA98 /* ViewController.swift in Sources */,
 				1E2B10EA29815AD7000DDA98 /* AppDelegate.swift in Sources */,
+				1E2B110029815E8A000DDA98 /* ShimmerCollectionViewCell.swift in Sources */,
 				1E2B10EC29815AD7000DDA98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
