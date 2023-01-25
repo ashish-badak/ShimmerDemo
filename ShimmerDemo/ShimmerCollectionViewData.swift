@@ -29,4 +29,17 @@ enum ShimmerType: CaseIterable {
         case .topRightToBottomLeft: return "Top-Right To Bottom-Left"
         }
     }
+    
+    var shimmerDirection: ShimmerDirection {
+        switch self {
+        case .topToBottom: return .topToBottom
+        case .topLeftToBottomRight: return .topLeftToBottomRight
+        case .leftToRight: return .leftToRight
+        case .bottomLeftToTopRight: return .bottomLeftToTopRight
+        case .bottomToTop: return .bottomToTop
+        case .bottomRightToTopLeft: return .bottomRightToTopLeft
+        case .rightToLeft: return .rightToLeft
+        case .topRightToBottomLeft: return .topRightToBottomLeft
+        }
+    }
 }

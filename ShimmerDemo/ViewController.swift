@@ -16,12 +16,14 @@ final class ViewController: UIViewController {
         let dimension = (UIScreen.main.bounds.width - 60) / 2
         layout.itemSize = CGSize(width: dimension, height: dimension)
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.backgroundColor = .white
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         return collectionView
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         setupCollectionView()
     }
     
